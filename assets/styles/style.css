@@ -303,7 +303,7 @@ button[type="submit"]{
     color: #4a7af3;
     text-align: center;
     transition: .7s;
-    
+
 }
 
 .fills:hover,
@@ -362,6 +362,8 @@ button[type="submit"]{
     font-size: 18px;
     margin-top: 33.54px;
     margin-left:220px;
+    animation: gradient 4s ease infinite;
+    background-size: 300%;
 }
 
 .wrap-container{
