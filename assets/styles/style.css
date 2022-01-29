@@ -123,6 +123,8 @@ ul:hover li a:hover {
     font-size: 18px;
     border: none;
     outline: none;
+    animation: gradient 4s ease infinite;
+    background-size: 300%;
 }
 
 .r-bg{
@@ -211,6 +213,8 @@ button[type="button"]{
     color: #fff;
     font-size: 18px;
     text-transform: uppercase;
+    animation: gradient 4s ease infinite;
+    background-size: 300%;
 }
 button[type="submit"]{
     width: 176px;
@@ -299,7 +303,9 @@ button[type="submit"]{
     color: #4a7af3;
     text-align: center;
     transition: .7s;
+    
 }
+
 .fills:hover,
 .fills:focus {
   box-shadow: inset 0 0 0 2em #4a7af3;
